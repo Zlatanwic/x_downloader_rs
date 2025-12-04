@@ -1,0 +1,22 @@
+
+
+# --- Rust 必须忽略 ---
+/target/
+Cargo.lock
+
+# --- 外部工具 (不要上传) ---
+ffmpeg.exe
+yt-dlp.exe
+ffmpeg
+yt-dlp
+ffmpeg-7.0.2-amd64-static/
+ffmpeg-release-amd64-static.tar.xz
+ffprobe
+
+# --- 敏感数据 & 输出 ---
+cookies.txt
+downloads/
+
+# --- 视频文件 ---
+*.mp4
+*.mkv
