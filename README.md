@@ -25,6 +25,9 @@ mv ffmpeg-*-static/ffprobe .
 
 # 4. 清理掉没用的压缩包和文件夹
 rm -rf ffmpeg-release-amd64-static.tar.xz ffmpeg-*-static
+
+# 5. 再赋予一下执行权限
+chmod +x ffmpeg ffprobe
 ```
 并且需要你有自己的x账号，并在运行本程序前保持登录状态，并且在浏览器插件商店里找到“Get cookies.txt LOCALLY”插件，在x页面选择export，并且把输出的txt文件改成"cookies.txt"，也放在同目录下
 ## 用法
